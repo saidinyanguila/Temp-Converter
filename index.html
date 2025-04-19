@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Converter</h1>
+
+        <h1 class="output" id="output">0&#176;C</h1>
+
+        <div class="input">
+            <input type="number" id="input" name="input" placeholder="Enter Value">
+            
+            <select name="units" id="units">
+                <option value="c">&#176;C</option>
+                <option value="f">&#176;F</option>
+            </select>
+
+            <button id="convert" onclick="convert()">Convert</button>
+        </div>
+
+        <em>Tip: Enter your value and select the units you wish to convert from.</em>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
